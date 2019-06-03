@@ -1,0 +1,33 @@
+{
+  "name": "@saber2pr/serve",
+  "version": "0.0.1",
+  "description": "http file server.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saber2pr/serve.git"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "files": [
+    "lib/core/*",
+    "lib/index.*"
+  ],
+  "lib": {
+    "serve": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "node ./lib/index.js",
+    "start": "tsc --watch"
+  },
+  "keywords": [
+    "server"
+  ],
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@saber2pr/koa": "^0.1.0",
+    "@saber2pr/koa-fs": "0.0.7",
+    "@saber2pr/node": "^0.2.2"
+  }
+}
