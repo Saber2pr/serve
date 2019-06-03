@@ -1,6 +1,6 @@
 {
   "name": "@saber2pr/serve",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "http file server.",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "lib/core/*",
     "lib/index.*"
   ],
-  "lib": {
+  "bin": {
     "serve": "./lib/index.js"
   },
   "scripts": {
